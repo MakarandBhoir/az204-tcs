@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xN9afP7lKxSwzoJV0gedxV6HT3EXhEIKQX2ukDPV1bnHsq3sGqG9pXHXoKdwffSxH4fIXOmFmmoesT/SSW6I6Q==",
+  "success": true,
+  "projectFilePath": "D:\\Training\\TCS\\DEPR\\Azure Developer\\Code\\Finished\\chap06\\01_ConsoleApp\\az204-auth\\az204-auth.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Makarand\\.nuget\\packages\\microsoft.identity.client\\4.53.0\\microsoft.identity.client.4.53.0.nupkg.sha512",
+    "C:\\Users\\Makarand\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.22.0\\microsoft.identitymodel.abstractions.6.22.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "az204-auth/1.0.0": {
+        "dependencies": {
+          "Microsoft.Identity.Client": "4.53.0"
+        },
+        "runtime": {
+          "az204-auth.dll": {}
+        }
+      },
+      "Microsoft.Identity.Client/4.53.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "6.22.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Identity.Client.dll": {
+            "assemblyVersion": "4.53.0.0",
+            "fileVersion": "4.53.0.0"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Abstractions/6.22.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "assemblyVersion": "6.22.0.0",
+            "fileVersion": "6.22.0.30727"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "az204-auth/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Identity.Client/4.53.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N0qNbtiuziG0UBFbbju7az96t4lEOQtuonhV+yk1mx76q4o5hBzekOURxQM0EJNWBIi68w72LivMQJuFig6kQw==",
+      "path": "microsoft.identity.client/4.53.0",
+      "hashPath": "microsoft.identity.client.4.53.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Abstractions/6.22.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iI+9V+2ciCrbheeLjpmjcqCnhy+r6yCoEcid3nkoFWerHgjVuT6CPM4HODUTtUPe1uwks4wcnAujJ8u+IKogHQ==",
+      "path": "microsoft.identitymodel.abstractions/6.22.0",
+      "hashPath": "microsoft.identitymodel.abstractions.6.22.0.nupkg.sha512"
+    }
+  }
+}

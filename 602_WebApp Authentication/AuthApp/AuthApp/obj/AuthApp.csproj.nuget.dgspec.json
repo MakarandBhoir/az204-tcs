@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Training\\TCS\\DEPR\\Azure Developer\\Code\\Finished\\chap06\\02_WebApp Authentication\\AuthApp\\AuthApp\\AuthApp.csproj": {}
+  },
+  "projects": {
+    "D:\\Training\\TCS\\DEPR\\Azure Developer\\Code\\Finished\\chap06\\02_WebApp Authentication\\AuthApp\\AuthApp\\AuthApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Training\\TCS\\DEPR\\Azure Developer\\Code\\Finished\\chap06\\02_WebApp Authentication\\AuthApp\\AuthApp\\AuthApp.csproj",
+        "projectName": "AuthApp",
+        "projectPath": "D:\\Training\\TCS\\DEPR\\Azure Developer\\Code\\Finished\\chap06\\02_WebApp Authentication\\AuthApp\\AuthApp\\AuthApp.csproj",
+        "packagesPath": "C:\\Users\\Makarand\\.nuget\\packages\\",
+        "outputPath": "D:\\Training\\TCS\\DEPR\\Azure Developer\\Code\\Finished\\chap06\\02_WebApp Authentication\\AuthApp\\AuthApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Makarand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[1.24.1, )"
+            },
+            "Microsoft.Identity.Web.UI": {
+              "target": "Package",
+              "version": "[1.24.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
